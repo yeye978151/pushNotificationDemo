@@ -33,5 +33,5 @@ npm run server
 6. 触发服务器端通知
 
 ```bash
- 9552* curl http://localhost:3000/api/trigger-push-msg -H 'Content-Type:application/json' -d '{"text":"张萌萌真可爱"}'
+curl http://localhost:3000/api/trigger-push-msg -H 'Content-Type:application/json' -d '{"text":"张萌萌真可爱"}'
 ```
