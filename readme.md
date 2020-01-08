@@ -27,3 +27,11 @@ npm run server
 
 4. 访问项目
 访问url：http://localhost:3000
+
+5. 点击页面按钮，开启通知
+
+6. 触发服务器端通知
+
+```bash
+ 9552* curl http://localhost:3000/api/trigger-push-msg -H 'Content-Type:application/json' -d '{"text":"张萌萌真可爱"}'
+```
