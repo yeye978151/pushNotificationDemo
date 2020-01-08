@@ -6,6 +6,10 @@
 ```bash
 git clone git@github.com:yeye978151/pushNotificationDemo.git
 ```
+进入下载好的代码仓库：
+```bash
+cd pushNotificationDemo
+```
 
 2. 安装依赖
 需要先全局安装好cnpm，如果已经安装过，可以跳过。如果安装提示权限不够，请加上`sudo`
